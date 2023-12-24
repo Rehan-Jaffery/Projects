@@ -1,0 +1,118 @@
+body {
+    color: #69948c;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+
+
+h1 {
+    color: #66bfbf;
+    font-size: 4.625rem;
+    margin: 0 auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+
+h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+/*Top of the page*/
+
+.cloud {
+    position: relative;
+    top: 0%;
+    right: 200px;
+
+}
+
+.top-container {
+    height: 100vh;
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 1cm;
+}
+
+.boat {
+    float: right;
+}
+
+.dp {
+    padding: 1cm 0cm;
+}
+
+.dp img {
+    border: 2px solid black;
+    border-radius: 100%;
+
+}
+
+.laptop {
+    margin-left: 0.4cm;
+    float: left;
+}
+
+
+/* bootstrap skill section */
+
+.skillbar {
+    display: flex;
+    position: relative;
+    float: right;
+    margin-right:  4cm;
+    display: block;
+    width: 60%;
+    margin-bottom: 30px;
+}
+.block{
+    display: inline-flex;
+}
+
+.skillbar-bar:before {
+    background: #eee;
+    content: "";
+    height: 3px;
+    position: absolute;
+    width: 50%;
+    z-index: -1;
+}
+
+.skillbar-bar {
+    height: 3px;
+    width: 0px;
+    background: #323232;
+    transition-property: width, background-color;
+}
+
+.skillbar-title {
+    color: #323232;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.skill-bar-percent {
+    float: right;
+    color: #323232;
+    font-size: 9px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* CENTERING ONLY */

@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display&family=Secular+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: powderblue;
+}
+@media (max-width: 480px){
+    body{
+        background-color: lightsalmon;
+    }
+
+}
+
+
+hr{
+    color:rgba(60, 128, 136, 0.925) ;
+    margin-left: 600px;
+    max-width: 10%;
+    border-style: dotted;
+    border-width: 2px;
+}
+.cent{
+    justify-content: center;
+    align-items: center;
+}
+
+.firstsection{
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode: darken;
+    background-blend-mode: overlay;
+    mix-blend-mode: darken;
+
+    
+}
+.intro td{
+    display: block;
+
+}
+.firstsection img{
+    display: inline-block;
+    background-size: cover;
+    max-width: 5cm;
+    border: 3px solid rgb(168, 155, 155);
+    border-radius: 110%;
+    clear: none;
+
+
+}
+.firstsection img {
+    transition: all .5s ease-in-out;
+  }
+  img:hover {
+    transform: rotate(360deg);
+  }
+
+
+.profile img {
+    display: inline-block;
+    max-width: 5cm;
+    max-height: 7cm;
+    border: 3px solid rgb(168, 155, 155);
+    border-radius: 110%;
+
+}
+
+
+
+.intro table {
+    display: flex;
+    border-spacing: 18px;
+    
+}
+.intro td{
+    display: inline-block;
+    mix-blend-mode: darken;
+
+}
+.heading {
+    color: #66BFBF;
+    display: inline-flexbox;
+    animation-name: namo;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-duration: 2s;
+    position: relative;
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+
+}
+@keyframes namo {
+    from {left: 0px;}
+    to {left: 140px;}
+}
+
+
+.secondsectionl{
+    padding-top: 10px;
+}
+
+.contactme{
+    display: block;
+
+}
+
+.info {
+    z-index: 0;
+    display: flexbox;
+   
+}
+span {
+    color: rgb(3, 70, 70);
+}
+.subdet{
+    font-size: small;
+    color: rgb(4, 41, 53);
+}
+
+.awhite {
+}
+
+.stars table {
+    text-decoration: underline;
+    text-decoration-style:double;
+    text-decoration-color: grey;
+    display: inline-flex;
+    border-spacing: 8px;
+}
+
+.indent {
+    text-align: left;
+    margin-left: 1cm;
+}
+
+.fon {
+    font-family: 'Times New Roman';
+    font-size: large;
+}
+
+
+
+
+
+a {
+    display: flex;
+    margin-left: 7cm;
+    color: rgb(10, 221, 151);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(10, 124, 124);
+    font-size: x-large;
+}
+
+.contactme {
+    overflow-x: visible;
+    display: flex;
+    margin-left: 3cm;
+    margin-bottom: 0.5cm;
+    display: flex;
+    align-items: center;
+}
+
+.contactme img {
+    overflow: visible;
+    display: flex;
+    justify-items: center;
+    max-width: 0.5cm;
+   
+}
+
+.social:hover {
+    display: flex;
+    position: relative;
+    display: block;
+    font-size: xx-large;
+    top: -10px;
+    left: -1px;
+    z-index: 0;
+    height: auto;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.8s;
+    -webkit-transition-timing-function: ease;
+}
+
+.contactme a {
+    display: flex;
+    overflow: visible;
+    justify-content: center;
+    padding: 1px;
+    margin-left: 0.5cm;
+    color: gray;
+
+
+}
+.bottomsec{
+
+
+}
+
+.planguages{
+
+    display: flex;
+}
+
+

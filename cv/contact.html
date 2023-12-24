@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/cstyle.css">
+  <title>Contact Form</title>
+</head>
+
+<body>
+
+  <div class="cform">
+    <div style="text-align:center">
+      <h2>Contact Me</h2>
+      <p>Trying to reach ? leave me a message here :</p>
+    </div>
+
+    <div class="row">
+
+      <div class="entries">
+        <img src="/img/smap.jpg" alt="map" width="75%">
+      </div>
+
+      <div class="entries">
+
+        <form action="mailto:rehanjaffery.02@gmail.com" method="post" enctype="text/plain">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="Name" placeholder="Your name..">
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="Email id" placeholder="Your email id.." style="border:0cm; height: 1cm; margin-top: 0.2cm; width: 100%;"><br><br>
+          <label for="cnumber">Contact Number<br></label>
+          <input type="tel" id="cnumber" name="ContactNumber"  maxlength="10"
+            placeholder="Enter your contact number.."><br><br>
+          <label for="importance">Importance</label>
+
+          <select id="state" name="state">
+            <option value="normal">Normal</option>
+            <option value="official">Official</option>
+            <option value="urgent">Urgent</option>
+            <option value="mostprior">Most Prior</option>
+          </select>
+
+          <label for="Query">Query</label>
+          <textarea id="Query" name="Query" placeholder="Enter your Query.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

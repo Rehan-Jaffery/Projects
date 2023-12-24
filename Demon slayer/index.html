@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assests/style.css">
+    <title>Demon slayer corps</title>
+</head>
+
+<body>
+    <section class="firsthalf">
+        <div class="logo"><img src="/assests/images/logo.png" alt="logo"></div>
+        <div class="title">
+            <h1>Demon Slayer Corps</h1>
+        </div>
+    </section>
+    <hr class="stl1">
+
+    <section class="secondhalf">
+        <div class="welcome">
+            <h2>WELCOME TO THE kIMETSU NO YAIBA </h2>
+        </div>
+        <div class="leftpan">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="/assests/images/slide1.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="/assests/images/slide2.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="/assests/images/slide4.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="/assests/images/slide3.jpg">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+            <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    let dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                }
+            </script>
+
+        </div>
+        <div class="story leftpan top">
+            <h2>STORY</h2>
+        </div>
+        <div class="para leftpan">
+            <img src="/assests/images/nez.png" alt="nez">
+            <p>In Taisho-era Japan, Tanjiro Kamado is a kindhearted boy who makes a living selling charcoal. However,
+                his peaceful life is shattered when a Demon slaughters his entire family. His little sister Nezuko is
+                the only survivor, but she has been transformed into a Demon herself! Tanjiro sets out on a dangerous
+                journey to find a way to return his sister to normal and destroy the Demon who ruined his life.</p>
+        </div>
+
+        </div>
+        <div class="leftpan top mt1 mb1">
+            <h2>CHARACTERS</h2>
+        </div>
+        <div class="chars leftpan">
+            <h2 class=" subhead top">Ubuyashiki Family</h2>
+            
+            
+            <a href=""><img src="/assests/images/ubu.png" alt=""> Kagaya Ubuyashiki</a>   
+            <a href=""><img src="/assests/images/amane.png" alt="">Amane Ubuyashiki</a>
+            <a href=""><img src="/assests/images/hinaki.png" alt="">Hinaki Ubuyashiki </a>
+            <a href=""><img src="/assests/images/nichika.png" alt="">Nichika Ubuyashiki</a> 
+            <a href=""><img src="/assests/images/kiriya.png" alt="">Kiriya Ubuyashiki</a>
+            <a href=""><img src="/assests/images/kanata.png" alt="">Kanata Ubuyashiki</a> 
+
+            <h2 class=" subhead top">Hashira's</h2>
+            <a href=""><img src="/assests/images/ubu.png" alt=""> Kagaya Ubuyashiki</a>   
+            <a href=""><img src="/assests/images/amane.png" alt="">Amane Ubuyashiki</a>
+            <a href=""><img src="/assests/images/hinaki.png" alt="">Hinaki Ubuyashiki </a>
+            <a href=""><img src="/assests/images/nichika.png" alt="">Nichika Ubuyashiki</a> 
+            <a href=""><img src="/assests/images/kiriya.png" alt="">Kiriya Ubuyashiki</a>
+            <a href=""><img src="/assests/images/kanata.png" alt="">Kanata Ubuyashiki</a> 
+            <a href=""><img src="/assests/images/kanata.png" alt="">Kanata Ubuyashiki</a> 
+            <a href=""><img src="/assests/images/kanata.png" alt="">Kanata Ubuyashiki</a> 
+            <a href=""><img src="/assests/images/kanata.png" alt="">Kanata Ubuyashiki</a> 
+          
+            <h2 class=" subhead top">Former Hashira's</h2>
+            <a href=""><img src="/assests/images/kanata.png" alt="">Kanata Ubuyashiki</a> 
+            <a href=""><img src="/assests/images/kanata.png" alt="">Kanata Ubuyashiki</a> 
+            <a href=""><img src="/assests/images/kanata.png" alt="">Kanata Ubuyashiki</a> 
+            <a href=""><img src="/assests/images/kanata.png" alt="">Kanata Ubuyashiki</a>
+            <h2 class=" subhead top">Demon Slayers</h2>
+            <a href=""><img src="/assests/images/ubu.png" alt=""> Kagaya Ubuyashiki</a>   
+            <a href=""><img src="/assests/images/amane.png" alt="">Amane Ubuyashiki</a>
+            <a href=""><img src="/assests/images/hinaki.png" alt="">Hinaki Ubuyashiki </a>
+            <a href=""><img src="/assests/images/nichika.png" alt="">Nichika Ubuyashiki</a> 
+            <a href=""><img src="/assests/images/kiriya.png" alt="">Kiriya Ubuyashiki</a>
+            <a href=""><img src="/assests/images/kanata.png" alt="">Kanata Ubuyashiki</a> 
+            <a href=""><img src="/assests/images/kanata.png" alt="">Kanata Ubuyashiki</a> 
+            <a href=""><img src="/assests/images/kanata.png" alt="">Kanata Ubuyashiki</a> 
+
+        </div>
+
+
+
+
+
+
+        <div class="rightpan">
+            <img src="/assests/images/slide3.jpg">
+        </div>
+    </section>
+
+</body>
+
+</html>
